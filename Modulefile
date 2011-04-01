@@ -1,0 +1,8 @@
+name    'rocha-lcgutil'
+version '0.1.0'
+source 'git://github.com/rochaporto/puppet-lcgutil'
+author 'rocha'
+license 'Apache License, Version 2.0 (the "License")'
+summary 'Resources for managing the installation of the gLite GFAL and LCGUTIL clients'
+description 'This module provides classes and definitions required for a setup of the GFAL libraries and/or the LCGUTIL libraries and command line tools.'
+project_page 'https://svnweb.cern.ch/trac/lcgutil'
