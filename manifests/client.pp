@@ -13,7 +13,7 @@ class lcgutil::client {
   package { "lcg-util": 
     name   => $grid_flavour ? { 
       "glite" => "lcg_util",
-      default => $name,
+      default => "lcg-util",
     },
     ensure => latest, 
     notify => $grid_flavour ? {
